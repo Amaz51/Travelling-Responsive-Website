@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+      target="_blank" href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <style>
+        .menu a:hover{
+    background-color: sandybrown;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu a{
+    margin-top: -2%;
+    margin-left: 5%;
+    text-decoration: none;
+    color: wheat;
+    font-weight: 600;
+    font-size: larger;
+    padding: 10px;
+
+    
+}.menu a:last-child{
+    margin-right: 5%;
+}
+
+        #slides{
+            z-index: -1;
+            width: 120%;
+            height: 100%;
+            position: absolute;
+            left: 40%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            background-image: url(usa.jpg);
+            background-size: 100% 100%;
+            box-shadow: 1px 2px 10px 5px white;
+            animation:slider 12s infinite linear ;
+        }
+        @keyframes slider{
+            0%{
+                background-image: url(usa1.jpg);
+            
+            }
+            35%{
+                background-image: url(usa2.jpg);
+            
+            }
+            75%{
+                background-image: url(usaback.jpg);
+            
+            }
+        }
+        body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: "Josefin Sans", sans-serif;
+  }
+#top a{
+    text-decoration: none;
+    color: sandybrown;
+}
+nav{
+    padding-top: 5px;
+    width: 100%;
+    height: 99px;
+    background: rgba(0, 0, 0, 0.2);
+}
+.logo{
+    position: absolute;
+    top: 19px;
+    left: 16px;
+}
+#top {
+    position: relative;
+    top: 20px;
+    left: 6%;
+}
+a:hover{
+    cursor: pointer;
+}
+#footer{
+    margin-top: 120px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+#i1{
+    text-decoration: none;
+    
+}
+#icons{
+    display: grid;
+    grid-gap: 15px;
+}
+#icons a{
+    color: white;
+    font-size: larger;
+    margin-bottom: 15px;
+}
+.sub{
+    margin-top: 15px;
+    background-color: rgb(167, 89, 89);
+    font-size: medium;
+    padding: 5px;
+    font-style: italic;
+}
+#separate{
+    display: grid;
+
+    grid-template-columns: 75% 25%;
+}
+#info{
+  position: relative;
+  top: 520px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+h2{
+    text-transform: uppercase;
+    font-style: italic;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+.iconimg{
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+#from{
+    margin-right: 50px;
+    
+}
+#form{
+    
+    background: rgba(255, 255, 255, 0.1);
+    padding-left: 50px;
+    border-radius: 15px;
+}
+a:hover{
+    cursor: pointer;
+}
+#subb:hover{
+    background-color: white;
+    color: black;
+}
+footer{
+    background-color: brown;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}#a1{
+    margin-left: 25px;
+    color: white;
+    text-decoration: none;
+}
+#a1:hover{
+    color:bisque
+}#textt{
+    background-color: white;
+    margin-top: 100px;
+    text-decoration: underline;
+    font-style: italic;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-weight: 850;
+    border: 5px solid red;
+    margin-right: 205px;
+    margin-left: 205px;
+}
+nav{
+    position: fixed;
+}
+    </style>
+</head>
+<body>
+    <section>
+        <div id="slides">
+            
+        </div>
+    </section>
+    <header>
+        
+        <nav><i><img class="logo" src="logo.png" width="60px" alt=""></i>
+            <div id="top">
+                <a href="index.html"><h1
+            style="font-size: 20px"
+            class="animate__animated infinite animate__bounce"
+          >
+            Company Name
+          </h1></a>
+                
+            </div>
+            <div class="menu">
+            <a target="_blank" href="index.html" style="color: #00b892;">Home</a>
+          <a target="_blank" href="#Countries">Countries</a>
+          <a target="_blank" href="#footer">Contact Us</a>
+            </div>
+        </nav>
+</header>
+<section id="info" style="text-align: center;">
+    <div>
+        <br>
+       <h2>Why USA?</h2>
+        <p>
+            The United States of America is a diverse and exciting destination that has something to offer every traveler. With its stunning natural landscapes, world-class cities, and rich cultural heritage, the USA is a must-visit destination for any adventurer.
+
+            One of the most popular destinations in the USA is New York City. <br><br> </p>
+        </div>
+</section>
+<section id="footer"  style="padding-bottom: 25px;">
+    <div class="base"  style="text-align: center;">
+        <h2>Get in Touch</h2>
+    <h4>Feel free to drop your interest</h4>
+    </div>
+    <section id="separate">
+         <div id="icons">
+        <li><a id="i1" target="_blank" href="https://www.linkedin.com/in/amaz-ahmed-9b8b55247/"><img class="iconimg" src="linkedin.png" width="35px" alt=""> Linkedin</a></li>
+        <li><a id="i1" target="_blank" href="https://web.facebook.com/amaz.ahmed.1694/"><img class="iconimg" src="facebook.png" width="35px" alt=""> Facebook</a></li>
+        <li><a id="i1" target="_blank" href="https://www.instagram.com/amaz.555/"><img class="iconimg" src="instagram.png" width="35px" alt=""> Instagram</a></li>
+        <li><a id="i1" target="_blank" href="https://github.com/Amaz51"><img class="iconimg" src="github.png" width="35px" alt=""> Github</a></li>
+    </div>
+    <section id="from">
+        <div id="form">
+            <div><h4>Name*</h4><input type="text" placeholder="Enter your Name"></div>
+            <div><h4>Email*</h4><input type="email" name="email" id="Email" placeholder="Enter your Email"></div>
+            <div><h4>Budget*</h4><input type="text" name="Budget" id="Budget" placeholder="Enter your Budget"></div>
+            
+            <a id="subb" target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=GFrJzlCVMMWsnxmgSQZDwvsrMRtXrSDrqWXsBcMNkWhhjtvnRHldXLXXlTjnjHXMGmpg"><input  class="sub" type="submit" value="Submit Now" placeholder="Submit Now"></a>
+            
+
+        </div>
+       
+    </section>
+    
+    </section>
+   
+</section> <footer id="lastpart">
+            <a id="a1" target="_blank" href="#">Terms and Conditions</a>
+            <a id="a1" target="_blank" href="#">Privacy</a>
+            <a id="a1" target="_blank" href="#">Contact Us</a>
+        </footer>
+</body>
+</html>
